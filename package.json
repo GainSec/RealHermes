@@ -1,0 +1,54 @@
+{
+  "name": "realhermes",
+  "private": true,
+  "version": "0.0.0",
+  "description": "2x4, a WebXR spatial companion for Hermes Agent: desktop simulator, push-to-talk voice, a Hermes-side view of what the wearer sees, and in-world PDF/image artifacts.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "GainSec",
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "dev:full": "node scripts/dev-with-hermes.mjs",
+    "dev": "concurrently -k \"npm:dev:client\" \"npm:dev:server\"",
+    "build": "tsc -b && tsc -p tsconfig.server.json && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "dev:client": "vite",
+    "dev:server": "tsx watch server/index.ts",
+    "start": "tsx server/index.ts",
+    "prod": "npm run build && node scripts/production.mjs",
+    "doctor": "tsx scripts/doctor.mjs",
+    "setup:env": "node scripts/init-env.mjs",
+    "verify": "sh scripts/verify.sh"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "@react-three/handle": "^6.6.32",
+    "@react-three/xr": "^6.6.32",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@pmndrs/pointer-events": "^6.6.32",
+    "@pmndrs/xr": "^6.6.32",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.6",
+    "oxlint": "^1.81.0",
+    "three-stdlib": "^2.36.1",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.4"
+  }
+}

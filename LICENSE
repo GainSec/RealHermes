@@ -1,0 +1,122 @@
+RealHermes Source-Available License
+Personal and Non-Commercial Use, Attribution Required
+
+Copyright (c) 2026 GainSec. All rights reserved, except as expressly granted below.
+
+This is a source-available license. It is not an open-source license and has not
+been approved by the Open Source Initiative. Personal and non-commercial use is
+permitted under the terms below. Commercial use requires a separate commercial
+license from GainSec. Attribution to GainSec is required for every use.
+
+1. Definitions
+
+   "Software" means everything in this repository and every copy, portion or
+   modified version of it: source code, scripts, configuration examples,
+   documentation, and bundled assets, including the 2x4 companion character
+   (its name, likeness and artwork) and the 3D model file
+   public/models/realhermes-idle.glb.
+
+   "You" means the individual or legal entity exercising rights under this
+   license.
+
+   "Non-Commercial Use" means use that is not intended for, and not directed
+   toward, commercial advantage or monetary compensation. Examples include
+   personal projects, hobby use, private study, teaching, and academic or
+   independent research whose results are not sold.
+
+   "Commercial Use" means any other use, including: use by or on behalf of a
+   business or other for-profit organization, including internal business use;
+   use in, or in support of, a product or service that is sold, licensed,
+   offered for a fee, supported by advertising, or otherwise monetized; use to
+   provide paid services to others; and any distribution of the Software, or of
+   anything incorporating it, for a fee.
+
+2. License Grant
+
+   Subject to your continued compliance with this license, GainSec grants you a
+   worldwide, royalty-free, non-exclusive, non-transferable, non-sublicensable
+   license to use, copy, modify and distribute the Software, solely for
+   Non-Commercial Use.
+
+3. Attribution (Required for All Use)
+
+   Every use of the Software, including personal and Non-Commercial Use, is
+   conditioned on attribution to GainSec. You must:
+
+   a. keep the copyright notice above, this license and any attribution notices
+      intact in all copies and substantial portions of the Software, including
+      modified versions;
+
+   b. give clear, reasonably prominent credit to GainSec, for example
+      "Based on RealHermes and the 2x4 companion by GainSec", whenever you
+      distribute, publish, display, demonstrate or otherwise make the Software,
+      a modified version of it, or its output available to anyone else,
+      including as a network service and in screenshots, recordings or
+      presentations of it; and
+
+   c. not remove or obscure attribution, and not suggest that GainSec endorses
+      you, your use or your modifications.
+
+4. Modified Versions and Redistribution
+
+   You may distribute copies and modified versions only for Non-Commercial Use,
+   free of charge, and only under this license, with a copy of this license
+   included. Modified versions must state that you changed the Software. You
+   may not impose terms that restrict the rights or conditions of this license.
+   Each recipient receives their license directly from GainSec under these
+   terms.
+
+5. Commercial Use
+
+   Commercial Use of the Software, including commercial use of the 2x4
+   character, its artwork or the 3D model, requires a separate written
+   commercial license from GainSec. To ask about a commercial license, contact
+   GainSec, the owner of this repository, through the repository where you
+   obtained the Software, for example by opening an issue that asks for
+   commercial-licensing contact. Do not include confidential information in a
+   public issue.
+
+6. Bundled Character, Artwork and Model
+
+   The 2x4 character, its artwork and the bundled 3D model are part of the
+   Software and are licensed only under these same terms. No separate right is
+   granted to extract or use them apart from these terms.
+
+7. Names and Trademarks
+
+   This license grants no right to use the names, logos or trademarks of
+   GainSec, except as needed to provide the attribution required in section 3.
+
+8. Third-Party Components
+
+   Third-party software, services and data that the Software uses or connects
+   to, including npm dependencies installed separately, Hermes Agent, Poppler,
+   ffmpeg, web browsers and any fonts or assets fetched at runtime, are not
+   part of the Software. They are licensed by their own owners under their own
+   terms.
+
+9. Termination
+
+   If you breach any term of this license, your rights under it terminate
+   automatically. If you cure the breach within 30 days after you become aware
+   of it, your rights are reinstated, unless GainSec has notified you in
+   writing that they are terminated. Sections 7, 8, 10 and 11 survive
+   termination.
+
+10. No Warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.
+
+11. Limitation of Liability
+
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL GAINSEC OR ANY
+   CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+12. Reservation of Rights
+
+   Any right not expressly granted in this license is reserved by GainSec.

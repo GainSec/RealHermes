@@ -1,0 +1,59 @@
+# Dependencies, build output and caches
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+.vite/
+.cache/
+.eslintcache
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local configuration and credentials (copy .env.example to .env)
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Vision frames, captures and other local runtime artifacts
+captures/
+frames/
+live-view/
+realhermes-artifacts-*/
+tmp/
+temp/
+
+# Editor, OS and local tool state
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.cobro/
+.claude/
+.serena/
+
+# Python bytecode from the Hermes plugin tests
+__pycache__/
+*.pyc

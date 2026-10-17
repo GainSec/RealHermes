@@ -1,0 +1,5 @@
+name: steam-frame-view
+version: 1.0.0
+description: Fresh still of the Steam Frame wearer's current panel view, including active passthrough
+provides_tools:
+  - steam_frame_capture
